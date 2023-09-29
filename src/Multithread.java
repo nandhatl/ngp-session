@@ -18,7 +18,7 @@ public class Multithread {
         try {
             int n = 8; // Number of threads
             for (int i = 0; i < n; i++) {
-                MultithreadingDemo object = null; // new MultithreadingDemo();
+                MultithreadingDemo object = new MultithreadingDemo();
                 object.start();
             }
         } catch (NullPointerException npe) {
@@ -30,3 +30,4 @@ public class Multithread {
 
     }
 }
+// Last Modifyed by Suriya
